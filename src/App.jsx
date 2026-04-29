@@ -7,7 +7,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<ProfileSelect />} />
-      <Route path="/home" element={<Home />} />
+      <Route path="/home/:id" element={<Home />} />
       <Route path="/movie/:id" element={<MovieDetail />} />
       <Route path="/search" element={<Search />} />
     </Routes>
