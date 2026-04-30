@@ -3,6 +3,7 @@ import searchIcon from "../images/search-icon.png";
 import notificationIcon from "../images/notification.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown, faChevronUp } from "@fortawesome/free-solid-svg-icons";
+import "../styles/Navbar.css";
 function Navbar({ selectedProfile }) {
   return (
     <header className="header">
